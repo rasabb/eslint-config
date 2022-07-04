@@ -1,0 +1,41 @@
+{
+  "name": "@rasabb/eslint-config",
+  "version": "3.1.0",
+  "description": "My ESLint config. Inspired heavily by eslint-config-google and moderately by eslint-config-airbnb.",
+  "license": "MIT",
+  "repository": "rasabb/eslint-config",
+  "author": {
+    "name": "Rashid Abba Ali",
+    "email": "shilsare@gmail.com",
+    "url": "https://rashid.so/"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7 || >=8"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    }
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "eslint-config",
+    "lint",
+    "config"
+  ]
+}
